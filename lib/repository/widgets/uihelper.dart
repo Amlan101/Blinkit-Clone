@@ -21,14 +21,20 @@ class UiHelper {
     required FontWeight fontWeight,
     required double fontSize,
     String? fontFamily,
+    TextOverflow? overflow,
+    int? maxLines,
+    TextAlign? textAlign
   }) {
     return Text(
       text,
+      maxLines: maxLines ?? 1,
+      textAlign: textAlign ?? TextAlign.start,
       style: TextStyle(
         color: color,
         fontWeight: fontWeight,
         fontSize: fontSize,
         fontFamily: fontFamily ?? "regular",
+        overflow: overflow ?? TextOverflow.ellipsis,
       ),
     );
   }
