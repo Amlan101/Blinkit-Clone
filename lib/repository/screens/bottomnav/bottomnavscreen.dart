@@ -22,6 +22,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       body: IndexedStack(
         index: currentIndex,
         children: pages,
