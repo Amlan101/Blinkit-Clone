@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
             /// 🔥 MEGA DIWALI SALE WIDGET
             const MegaDiwaliSaleWidget(),
 
-            /// 🛍️ PRODUCT LIST (FIXED IMAGE STRETCH ISSUE)
+            /// 🛍️ PRODUCT LIST
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
               child: SizedBox(

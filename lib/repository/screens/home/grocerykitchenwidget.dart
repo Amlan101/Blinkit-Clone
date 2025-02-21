@@ -9,8 +9,8 @@ class GroceryKitchenWidget extends StatelessWidget {
     {"img": "image 41.png", "text": "Vegetables & Fruits"},
     {"img": "image 42.png", "text": "Atta, Dal & Rice"},
     {"img": "image 43.png", "text": "Oil, Ghee & Masala"},
-    {"img": "image 44 (1).png", "text": "Dairy, Bread & Milk"},
-    {"img": "image 45 (1).png", "text": "Biscuits & Bakery"},
+    {"img": "daily_bread_milk.png", "text": "Dairy, Bread & Milk"},
+    {"img": "bourbon.png", "text": "Biscuits & Bakery"},
   ];
 
   @override
