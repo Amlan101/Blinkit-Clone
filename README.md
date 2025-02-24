@@ -13,23 +13,20 @@ Through this project, I explored Flutter’s widget system, including:
 ## App Screens
 Below are the key screens implemented in this project:
 
-### 1. Splash Screen
-![Splash Screen](./screenshots/splash_screen.png)
-
-### 2. Login Screen
-![Login Screen](./screenshots/login_page.png)
-
-### 3. Home Page
-![Home Page](./screenshots/home_page.png)
-
-### 4. Cart Page
-![Cart Page](./screenshots/cart_page.png)
-
-### 5. Category Page
-![Category Page](./screenshots/category_page.png)
-
-### 6. Print Page
-![Print Page](./screenshots/print_page.png)
+<table>
+  <tr>
+    <td><img src="./screenshots/splash_screen.png" alt="Splash Screen" width="500"/></td>
+    <td><img src="./screenshots/login_page.png" alt="Login Screen" width="500"/></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/home_page.jpg" alt="Home Page" width="500"/></td>
+    <td><img src="./screenshots/cart_page.png" alt="Cart Page" width="500"/></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/category_page.png" alt="Category Page" width="500"/></td>
+    <td><img src="./screenshots/print_page.png" alt="Print Page" width="500"/></td>
+  </tr>
+</table>
 
 ## Lessons Learned
 - Flutter's `Widget` tree is conceptually similar to Jetpack Compose's Composables, but the lifecycle and state management work differently.
