@@ -1,16 +1,40 @@
-# blinkit
+# Blinkit UI Clone
 
-A new Flutter project.
+A UI clone of the Blinkit app built using Flutter. This project was my first attempt at Flutter development.
 
-## Getting Started
+## Objective
+The goal of this project was to understand Flutter's UI-building paradigm by replicating a familiar app interface. Having prior experience in mobile app development with Jetpack Compose, I wanted to compare the similarities and differences in UI implementation between Compose and Flutter. 
 
-This project is a starting point for a Flutter application.
+Through this project, I explored Flutter’s widget system, including:
+- Building reusable UI components similar to Jetpack Compose's wrappers around primitives like `Text`, `TextField`, and `Button`.
+- Implementing various UI elements such as search bars, buttons, bottom navigation bars, lists, grids, and stacks.
+- Understanding navigation and screen transitions in Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## App Screens
+Below are the key screens implemented in this project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Splash Screen
+![Splash Screen](./screenshots/splash_screen.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Login Screen
+![Login Screen](./screenshots/login_page.png)
+
+### 3. Home Page
+![Home Page](./screenshots/home_page.png)
+
+### 4. Cart Page
+![Cart Page](./screenshots/cart_page.png)
+
+### 5. Category Page
+![Category Page](./screenshots/category_page.png)
+
+### 6. Print Page
+![Print Page](./screenshots/print_page.png)
+
+## Lessons Learned
+- Flutter's `Widget` tree is conceptually similar to Jetpack Compose's Composables, but the lifecycle and state management work differently.
+- Navigation in Flutter is managed using `Navigator` and routes, whereas Compose uses the `NavController` and `NavHost`.
+- Flutter requires explicit layout widgets like `Column`, `Row`, and `Stack`, whereas Compose relies on `Modifier` for styling and layout.
+- Building reusable UI components in Flutter follows a slightly different approach compared to Jetpack Compose.
+
+This project was a great learning experience, and I look forward to building more apps with Flutter!
