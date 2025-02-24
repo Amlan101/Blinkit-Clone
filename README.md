@@ -1,6 +1,6 @@
 # Blinkit UI Clone
 
-A UI clone of the Blinkit app built using Flutter. This project was my first attempt at Flutter development.
+A UI clone of the Blinkit app built using Flutter. 
 
 ## Objective
 The goal of this project was to understand Flutter's UI-building paradigm by replicating a familiar app interface. Having prior experience in mobile app development with Jetpack Compose, I wanted to compare the similarities and differences in UI implementation between Compose and Flutter. 
